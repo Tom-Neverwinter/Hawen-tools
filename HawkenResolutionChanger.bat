@@ -1,7 +1,7 @@
 @echo off
 cls
-type splash.txt
-timeout /t 3 >nul
+:type splash.txt
+:timeout /t 3 >nul
 goto MENU
 
 :MENU
