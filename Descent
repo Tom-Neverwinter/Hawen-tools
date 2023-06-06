@@ -4,11 +4,14 @@ https://github.com/CodeRedModding/CodeRed-Generator/ [possible future tool not i
 
 https://github.com/polivilas/UnrealEngineSDKGenerator [you want this one for sdk]
 
-You need visual studio 2022 [17.x.xxx]
+You need Visual Studio 2022 version 17.6.2
 you then go to tools and extensions and add tools 141/142/143. I just searched the installer for these. you will probably need 2019 to install the specific tool. [I got too frustrated for this part to documnent my success]
+https://stackoverflow.com/questions/56901371/how-to-install-v142-build-tools-in-visual-studio [this helped to figure out the setup]
+
+I needed toolset 141
 
 then follow this guide: https://www.unknowncheats.me/forum/unreal-3-engine/71911-thefeckless-ue3-sdk-generator.html
-you are matching a pattern not the specific numbers on a per game scenario
+you are matching a pattern not the specific numbers on a per game scenario. this part isnt exactly easy or straight forward.
 
-Full source from Unreal Engine 3 2004 (Build 469) https://github.com/CodeRedModding/UnrealEngine3
-https://github.com/gameboys84/unrealengine3
+Full source from Unreal Engine 3 2004 (Build 469) https://github.com/CodeRedModding/UnrealEngine3 [this is a pending piece and is not the version we will probably use]
+https://github.com/gameboys84/unrealengine3 [this is a pending piece and is not the version we will probably use]
