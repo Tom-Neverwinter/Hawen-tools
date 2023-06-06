@@ -1,10 +1,14 @@
 Welp. I swore I would if progress wasnt made. so here we are
 
-https://github.com/CodeRedModding/CodeRed-Generator/
+https://github.com/CodeRedModding/CodeRed-Generator/ [possible future tool not in use]
 
-https://github.com/polivilas/UnrealEngineSDKGenerator
-https://www.unknowncheats.me/forum/unreal-3-engine/71911-thefeckless-ue3-sdk-generator.html
+https://github.com/polivilas/UnrealEngineSDKGenerator [you want this one for sdk]
 
+You need visual studio 2022 [17.x.xxx]
+you then go to tools and extensions and add tools 141/142/143. I just searched the installer for these. you will probably need 2019 to install the specific tool. [I got too frustrated for this part to documnent my success]
+
+then follow this guide: https://www.unknowncheats.me/forum/unreal-3-engine/71911-thefeckless-ue3-sdk-generator.html
+you are matching a pattern not the specific numbers on a per game scenario
 
 Full source from Unreal Engine 3 2004 (Build 469) https://github.com/CodeRedModding/UnrealEngine3
 https://github.com/gameboys84/unrealengine3
