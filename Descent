@@ -21,6 +21,9 @@ then follow this guide: https://www.unknowncheats.me/forum/unreal-3-engine/71911
 you are matching a pattern not the specific numbers on a per game scenario. this part isnt exactly easy or straight forward.
 
 what can we do now: https://github.com/UE-Explorer/UE-Explorer
+
+https://github.com/UE-Explorer/UE-Explorer/issues/35
+It appears that version 860/002 is compatible, but UE Explorer does not auto-detect that version as a Hawken package; setting the version manually however does not fix the issue (strange!)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Still figuring out
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
