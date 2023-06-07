@@ -20,5 +20,17 @@ I needed toolset 141
 then follow this guide: https://www.unknowncheats.me/forum/unreal-3-engine/71911-thefeckless-ue3-sdk-generator.html
 you are matching a pattern not the specific numbers on a per game scenario. this part isnt exactly easy or straight forward.
 
+what can we do now: https://github.com/UE-Explorer/UE-Explorer
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Still figuring out
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Full source from Unreal Engine 3 2004 (Build 469) https://github.com/CodeRedModding/UnrealEngine3 [this is a pending piece and is not the version we will probably use]
 https://github.com/gameboys84/unrealengine3 [this is a pending piece and is not the version we will probably use]
+
+digging for proper UDK version:
+https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/
+https://github.com/tianocore/tianocore.github.io/wiki/UDK2014-Releases
+https://github.com/tianocore/tianocore.github.io/wiki/UDK2014.IHV-Setup-Guide
+
+https://github.com/folgerwang/UnrealEngine
