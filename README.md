@@ -8,3 +8,5 @@ TODO: add graphics settings and username changer setting. physX
 
 server.bat
 eanbles hosting a server and has some configs. more items probably need to be broken out. 
+
+this repo is backed up daily :)
