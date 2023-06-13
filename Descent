@@ -1,5 +1,13 @@
 Welp. I swore I would if progress wasnt made. so here we are
 
+install https://github.com/imartinez/privateGPT or https://github.com/PromtEngineer/localGPT 
+ 
+pick a hugging face model hf like https://huggingface.co/TheBloke/vicuna-7B-1.1-HF [ggml work pretty well]
+ 
+then download polivilas UnrealEngineSDKGeneratormaster [this specific version worked in visual studio
+ 
+copy the pattern and ask the ai to find the pattern for you. then past your offset.
+
 https://github.com/CodeRedModding/CodeRed-Generator/ [possible future tool not in use]
 
 https://github.com/polivilas/UnrealEngineSDKGenerator [you want this one for sdk]
