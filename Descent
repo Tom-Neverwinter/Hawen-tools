@@ -32,6 +32,8 @@ what can we do now: https://github.com/UE-Explorer/UE-Explorer
 
 https://github.com/UE-Explorer/UE-Explorer/issues/35
 It appears that version 860/002 is compatible, but UE Explorer does not auto-detect that version as a Hawken package; setting the version manually however does not fix the issue (strange!)
+
+Node.js, putty, ye old scrim bot. 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Still figuring out
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
