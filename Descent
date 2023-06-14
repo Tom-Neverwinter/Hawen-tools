@@ -35,6 +35,11 @@ what can we do now: https://github.com/UE-Explorer/UE-Explorer
 https://github.com/UE-Explorer/UE-Explorer/issues/35
 It appears that version 860/002 is compatible, but UE Explorer does not auto-detect that version as a Hawken package; setting the version manually however does not fix the issue (strange!)
 
+Unreal engine 3 
+https://archive.org/download/udkinstaller/UDKInstall-2014-02.exe [2014]
+
+https://archive.org/download/udkinstaller/UDKInstall-2012-07-BETA2.exe [PAX]
+
 Node.js, putty, ye old scrim bot. 
 
 
@@ -48,6 +53,11 @@ Full source from Unreal Engine 3 2004 (Build 469) https://github.com/CodeRedModd
 https://github.com/gameboys84/unrealengine3 [this is a pending piece and is not the version we will probably use]
 
 digging for proper UDK version:
+
+https://archive.org/details/udkinstaller Several releases of the UDK (Unreal Engine 3) installer
+Ranging from 2009-11 to 2015-02
+
+
 https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/
 https://github.com/tianocore/tianocore.github.io/wiki/UDK2014-Releases
 https://github.com/tianocore/tianocore.github.io/wiki/UDK2014.IHV-Setup-Guide
@@ -55,7 +65,6 @@ https://github.com/tianocore/tianocore.github.io/wiki/UDK2014.IHV-Setup-Guide
 https://github.com/folgerwang/UnrealEngine
 
 https://docs.unrealengine.com/5.2/en-US/API/
-
 https://docs.unrealengine.com/5.2/en-US/Programming [archive?]
 
 https://mirror.ashfire908.com/hawken/patch-archive/ gamebuilds education and preservation
@@ -72,11 +81,7 @@ https://github.com/mikeroyal/Unreal-Engine-Guide
 
 https://archive.org/details/unreal-development-kit-3-developers-guide/page/n191/mode/2up
 
-
-
 https://archive.org/details/wiki-u3clanfandomcom
-
-
 
 https://ia802906.us.archive.org/27/items/unreal-development-kit-3-developers-guide/Unreal%20Development%20Kit%203%20developers%20guide.pdf
 
