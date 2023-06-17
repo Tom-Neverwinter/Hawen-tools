@@ -31,7 +31,14 @@ then follow this guide: https://www.unknowncheats.me/forum/unreal-3-engine/71911
 you are matching a pattern not the specific numbers on a per game scenario. this part isnt exactly easy or straight forward.
 
 what can we do now:
-https://guidedhacking.com/threads/how-to-find-the-unreal-engine-entity-list-ue4.20148/ https://github.com/UE-Explorer/UE-Explorer
+https://guidedhacking.com/threads/unreal-engine-game-hacking.14278/
+
+https://guidedhacking.com/threads/how-to-find-the-unreal-engine-entity-list-ue4.20148/
+https://guidedhacking.com/threads/how-to-find-console-commands-in-unreal-engine-4.20094/
+https://guidedhacking.com/threads/how-to-find-what-unreal-engine-version-a-game-uses.15474/
+
+
+ https://github.com/UE-Explorer/UE-Explorer
 
 https://github.com/UE-Explorer/UE-Explorer/issues/35
 It appears that version 860/002 is compatible, but UE Explorer does not auto-detect that version as a Hawken package; setting the version manually however does not fix the issue (strange!)
