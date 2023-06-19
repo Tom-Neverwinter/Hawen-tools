@@ -48,7 +48,9 @@ https://archive.org/download/udkinstaller/UDKInstall-2014-02.exe [2014]
 
 https://archive.org/download/udkinstaller/UDKInstall-2012-07-BETA2.exe [PAX]
 
-Node.js, putty, ye old scrim bot. 
+-nullrhi -dx9 -dx11
+
+Node.js, putty, ye old scrim bot. xmpp is just a part of the server cool!
 
 
 config changes: https://mirror.ashfire908.com/hawken/forums/rld-era/topic/3783-hawken-config-max-fps-version-40-more-optimization/index.html
@@ -99,6 +101,7 @@ https://mirror.ashfire908.com/hawken/patch-archive/ gamebuilds education and pre
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 https://docs.unrealengine.com/udk/Three/APEXDestructionCH.html hmm, but it does fail to load? 
+https://docs.unrealengine.com/udk/Three/APEXDestructionJP.html 
 ========================================================================================================================================================================
 BOOKS
 https://github.com/mikeroyal/Unreal-Engine-Guide
