@@ -1,16 +1,26 @@
 # Hawen-tools
-Tools for the hawken pax client
-------------------------------------------------------------------------------------------
-HawkenResolutionChanger.bat
-is for the client and enables the user to start up and change their resolution
 
-TODO: add graphics settings and username changer setting. physX
+Tools for the Hawken Pax client
 
-physX was amazing!!! 
-https://www.youtube.com/watch?v=foVey99DymQ
-https://www.youtube.com/watch?v=eGVXfvA_-fA
-------------------------------------------------------------------------------------------
-server.bat
-eanbles hosting a server and has some configs. more items probably need to be broken out. 
+---
 
-this repo is backed up daily :)
+## HawkenResolutionChanger.bat
+
+This tool is used for changing the resolution of the Hawken client. It enables users to start up the game and modify their resolution settings.
+
+TODO:
+- Add graphics settings
+- Add username changer setting
+- Toggle options for PhysX, bloom, and motion blur
+
+PhysX was amazing! Check out these videos:
+- [Video 1](https://www.youtube.com/watch?v=foVey99DymQ)
+- [Video 2](https://www.youtube.com/watch?v=eGVXfvA_-fA)
+
+---
+
+## server.bat
+
+This tool enables hosting a server and includes some configurations. Additional items may need to be separated into their own sections.
+
+**Note**: This repository is backed up daily for education and preservation purposes.
