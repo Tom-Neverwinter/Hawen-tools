@@ -9,7 +9,7 @@ Tools for the Hawken Pax client
 This tool is used for changing the resolution of the Hawken client. It enables users to start up the game and modify their resolution settings.
 
 TODO:
-- Add graphics settings
+- ~~Add graphics settings~~
 - Add username changer setting
 - Toggle options for PhysX, bloom, and motion blur
 
