@@ -67,9 +67,8 @@ echo Decompression completed
 REM Switch to the unpacked folder for patching
 cd unpacked
 
-REM Ask for the patch file location and run deltapatcher
-SET /P patchPath=Please enter the path to your patch file: 
-deltapatcher.exe robots.u "%patchPath%"
+REM Patch the robots.u file
+deltapatcher.exe robots.u "patchfile.xdelta"
 if errorlevel 1 (
     echo Error in patching robots.u file. Please check if deltapatcher.exe and patchfile.xdelta are in the correct path.
     pause
@@ -78,7 +77,4 @@ if errorlevel 1 (
 echo Patching completed 
 
 REM Copy the patched robots.u back to the original location
-move /y robots.u.patched "%robotsPath%\robots.u"
-
-echo Installation process completed. 
-pause
+move /y robots.u.patched "%
