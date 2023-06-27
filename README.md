@@ -14,8 +14,8 @@ TODO:
 - Toggle options for PhysX, bloom, and motion blur
 
 PhysX was amazing! Check out these videos:
-- [Video 1](https://www.youtube.com/watch?v=foVey99DymQ)
-- [Video 2](https://www.youtube.com/watch?v=eGVXfvA_-fA)
+- [![Video 1](https://img.youtube.com/vi/foVey99DymQ/0.jpg)](https://www.youtube.com/watch?v=foVey99DymQ)
+- [![Video 2](https://img.youtube.com/vi/eGVXfvA_-fA/0.jpg)](https://www.youtube.com/watch?v=eGVXfvA_-fA)
 
 ---
 
