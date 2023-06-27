@@ -21,6 +21,12 @@ PhysX was amazing! Check out these videos:
 
 ## server.bat
 
-This tool enables hosting a server and includes some configurations. Additional items may need to be separated into their own sections.
+This tool enables hosting a server and includes some configurations.
+
+Additional items may need to be separated into their own sections.
+
+server name, all the current maps of pax are included. 
+
+siege, tdm and dm are included
 
 **Note**: This repository is backed up daily for education and preservation purposes.
