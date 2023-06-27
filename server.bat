@@ -18,43 +18,49 @@ if "%mapChoice%"=="4" set map=Sahara_DM_E3
 
 :players
 echo.
-set /p numPlayers=Enter the number of players (1-32): 
+echo Enter the number of players:
+echo (Expected range is 1-32)
+set /p numPlayers=
 
 :: Validate number of players
 if %numPlayers% lss 1 (
-  echo Number of players should be between 1 and 32. Please try again.
+  echo Invalid input. Number of players should be between 1 and 32. Please try again.
   goto players
 )
 if %numPlayers% gtr 32 (
-  echo Number of players should be between 1 and 32. Please try again.
+  echo Invalid input. Number of players should be between 1 and 32. Please try again.
   goto players
 )
 
 :goal_score
 echo.
-set /p goalScore=Enter the goal score (1000-80000): 
+echo Enter the goal score:
+echo (For a full server of 5v5, a score of around 40000 is fairly standard. Expected range is 1000-80000.)
+set /p goalScore=
 
 :: Validate goal score
 if %goalScore% lss 1000 (
-  echo Goal score should be between 1000 and 80000. Please try again.
+  echo Invalid input. Goal score should be between 1000 and 80000. Please try again.
   goto goal_score
 )
 if %goalScore% gtr 80000 (
-  echo Goal score should be between 1000 and 80000. Please try again.
+  echo Invalid input. Goal score should be between 1000 and 80000. Please try again.
   goto goal_score
 )
 
 :time_limit
 echo.
-set /p timeLimit=Enter the time limit (in minutes, 5-120): 
+echo Enter the time limit (in minutes):
+echo (Expected range is 5-120)
+set /p timeLimit=
 
 :: Validate time limit
 if %timeLimit% lss 5 (
-  echo Time limit should be between 5 and 120 minutes. Please try again.
+  echo Invalid input. Time limit should be between 5 and 120 minutes. Please try again.
   goto time_limit
 )
 if %timeLimit% gtr 120 (
-  echo Time limit should be between 5 and 120 minutes. Please try again.
+  echo Invalid input. Time limit should be between 5 and 120 minutes. Please try again.
   goto time_limit
 )
 
