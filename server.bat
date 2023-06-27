@@ -7,7 +7,7 @@ echo.
 echo Select a map:
 echo 1. Alleys_DM
 echo 2. Andromeda_DM
-echo 3. Andromeda_Siege
+echo 3. Andromeda_Siege [Only supports Siege mode]
 echo 4. Sahara_DM_E3
 set /p mapChoice=Enter the map number: 
 
@@ -36,14 +36,20 @@ set /p goalScore=Enter the goal score:
 echo.
 set /p timeLimit=Enter the time limit (in minutes): 
 
+:game_mode
 echo.
 echo Select a game mode:
-echo 1. Team Deathmatch
-echo 2. Deathmatch
-set /p gameMode=Enter the game mode number: 
-
-if "%gameMode%"=="1" set game=Robots.R_TeamDeathmatch
-if "%gameMode%"=="2" set game=Robots.R_Deathmatch
+if "%map%"=="Andromeda_Siege" (
+    echo 1. Siege
+    set /p gameMode=Enter the game mode number: 
+    if "%gameMode%"=="1" set game=Robots.R_Siege
+) else (
+    echo 1. Team Deathmatch
+    echo 2. Deathmatch
+    set /p gameMode=Enter the game mode number: 
+    if "%gameMode%"=="1" set game=Robots.R_TeamDeathmatch
+    if "%gameMode%"=="2" set game=Robots.R_Deathmatch
+)
 
 echo.
 set /p serverName=Enter the server name: 
