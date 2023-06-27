@@ -19,16 +19,16 @@ if "%mapChoice%"=="4" set map=Sahara_DM_E3
 :players
 echo.
 echo Enter the number of players:
-echo (Expected range is 1-32)
+echo (Expected range is 1-16)
 set /p numPlayers=
 
 :: Validate number of players
 if %numPlayers% lss 1 (
-  echo Invalid input. Number of players should be between 1 and 32. Please try again.
+  echo Invalid input. Number of players should be between 1 and 16. Please try again.
   goto players
 )
-if %numPlayers% gtr 32 (
-  echo Invalid input. Number of players should be between 1 and 32. Please try again.
+if %numPlayers% gtr 16 (
+  echo Invalid input. Number of players should be between 1 and 16. Please try again.
   goto players
 )
 
@@ -51,16 +51,16 @@ if %goalScore% gtr 80000 (
 :time_limit
 echo.
 echo Enter the time limit (in minutes):
-echo (Expected range is 5-120)
+echo (Expected range is 5-60)
 set /p timeLimit=
 
 :: Validate time limit
 if %timeLimit% lss 5 (
-  echo Invalid input. Time limit should be between 5 and 120 minutes. Please try again.
+  echo Invalid input. Time limit should be between 5 and 60 minutes. Please try again.
   goto time_limit
 )
-if %timeLimit% gtr 120 (
-  echo Invalid input. Time limit should be between 5 and 120 minutes. Please try again.
+if %timeLimit% gtr 60 (
+  echo Invalid input. Time limit should be between 5 and 60 minutes. Please try again.
   goto time_limit
 )
 
