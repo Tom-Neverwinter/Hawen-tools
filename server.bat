@@ -30,11 +30,33 @@ if %numPlayers% gtr 32 (
   goto players
 )
 
+:goal_score
 echo.
-set /p goalScore=Enter the goal score: 
+set /p goalScore=Enter the goal score (1000-80000): 
 
+:: Validate goal score
+if %goalScore% lss 1000 (
+  echo Goal score should be between 1000 and 80000. Please try again.
+  goto goal_score
+)
+if %goalScore% gtr 80000 (
+  echo Goal score should be between 1000 and 80000. Please try again.
+  goto goal_score
+)
+
+:time_limit
 echo.
-set /p timeLimit=Enter the time limit (in minutes): 
+set /p timeLimit=Enter the time limit (in minutes, 5-120): 
+
+:: Validate time limit
+if %timeLimit% lss 5 (
+  echo Time limit should be between 5 and 120 minutes. Please try again.
+  goto time_limit
+)
+if %timeLimit% gtr 120 (
+  echo Time limit should be between 5 and 120 minutes. Please try again.
+  goto time_limit
+)
 
 :game_mode
 echo.
